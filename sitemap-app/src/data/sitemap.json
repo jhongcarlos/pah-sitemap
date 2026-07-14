@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-10T08:34:51.060Z",
+    "generatedAt": "2026-07-14T16:58:03.149Z",
     "counts": {
       "pages": 166,
       "courses": 419,
@@ -30,7 +30,7 @@
       "title": "11 Consultation",
       "client": null,
       "spanish": false,
-      "category": "utility",
+      "category": "main-nav",
       "suggestedDelete": false,
       "suggestedReason": null
     },
@@ -1194,7 +1194,7 @@
       "title": "Pah Our Advisors",
       "client": null,
       "spanish": false,
-      "category": "utility",
+      "category": "main-nav",
       "suggestedDelete": false,
       "suggestedReason": null
     },
@@ -1206,7 +1206,7 @@
       "title": "Pah Our Managers",
       "client": null,
       "spanish": false,
-      "category": "utility",
+      "category": "main-nav",
       "suggestedDelete": false,
       "suggestedReason": null
     },
@@ -1218,7 +1218,7 @@
       "title": "Pah Resources",
       "client": null,
       "spanish": false,
-      "category": "utility",
+      "category": "resource-guides",
       "suggestedDelete": false,
       "suggestedReason": null
     },
@@ -1290,7 +1290,7 @@
       "title": "Platform",
       "client": null,
       "spanish": false,
-      "category": "utility",
+      "category": "legacy-review",
       "suggestedDelete": false,
       "suggestedReason": null
     },
@@ -1374,7 +1374,7 @@
       "title": "Private Coaching Session",
       "client": null,
       "spanish": false,
-      "category": "utility",
+      "category": "main-nav",
       "suggestedDelete": false,
       "suggestedReason": null
     },
@@ -1386,7 +1386,7 @@
       "title": "Private Consulting",
       "client": null,
       "spanish": false,
-      "category": "utility",
+      "category": "main-nav",
       "suggestedDelete": false,
       "suggestedReason": null
     },
@@ -1422,7 +1422,7 @@
       "title": "Register Free Online Parenting Class",
       "client": null,
       "spanish": false,
-      "category": "utility",
+      "category": "main-nav",
       "suggestedDelete": false,
       "suggestedReason": null
     },
@@ -1866,7 +1866,7 @@
       "title": "Teenlife",
       "client": null,
       "spanish": false,
-      "category": "utility",
+      "category": "legacy-review",
       "suggestedDelete": false,
       "suggestedReason": null
     },
@@ -1950,7 +1950,7 @@
       "title": "Welcome Baby",
       "client": null,
       "spanish": false,
-      "category": "utility",
+      "category": "resource-guides",
       "suggestedDelete": false,
       "suggestedReason": null
     },

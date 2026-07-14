@@ -100,17 +100,19 @@ const CATEGORY_RULES = [
        'getting-started', 'faqs', 'privacy-policy', 'terms-of-service', 'catalog', 'shop', 'why-pahps',
        'why-peace-at-home', 'our-experts', 'our-advisors', 'our-managers', 'ask-a-question',
        'custom-interactive-workshops', 'discussions-with-an-expert-recorded', 'expert-blog',
-       'parenting-quick-tips', 'company-calendar'].includes(slug) },
+       'parenting-quick-tips', 'company-calendar', '11-consultation', 'private-consulting',
+       'private-coaching-session', 'pah-our-advisors', 'pah-our-managers', 'register-free-online-parenting-class'].includes(slug) },
   { key: 'b2b', label: 'B2B / Institutional Landing Pages', test: (slug) =>
       /^(corporate|school|college-mental-health$|college-mental-health-resources$|np|employers|service-page|resource-b2b|resource-template)$/.test(slug) },
   { key: 'portal', label: 'Client Portals (Logged-In)', test: (slug) =>
       /portal|login|group-registration|husky|bridgewell|worklife-at-yale|casa-for-kids|omg-working-parents|teladoc|farmington|extreme-networks|emory-university|chnct|south-windsor|mit-|be-biopharma|vernon-ct|teladoc-health|omnicom-media/.test(slug) },
   { key: 'library', label: 'Open Client Libraries', test: (slug) =>
       /library|solutions-libraries|starter-library|partner-library|mpy-solution-libraries|quick-video-solutions-pack|bbbs-quick-video/.test(slug) },
-  { key: 'resource-guides', label: 'Resource Guides (By Age / Topic)', test: (slug) => /^resources-|^resources$|^neurodiversity-resources$|^college-mental-health-resources/.test(slug) },
+  { key: 'resource-guides', label: 'Resource Guides (By Age / Topic)', test: (slug) =>
+      /^resources-|^resources$|^neurodiversity-resources$|^college-mental-health-resources|^welcome-baby$|^pah-resources$/.test(slug) },
   { key: 'handouts', label: 'Handouts', test: (slug) => /^handouts/.test(slug) },
   { key: 'utility', label: 'Utility / Account / Commerce', test: (slug) =>
-      /^(cart|checkout|register|profile|user-profile|client-request-form|class-registration-confirmation|private-coaching-session|private-consulting|11-consultation|11-consulting-open-library|group-users-2|welcome-baby|pah-resources|pah-our-advisors|pah-our-managers|teenlife|platform|register-free-online-parenting-class)$/.test(slug) },
+      /^(cart|checkout|register|profile|user-profile|client-request-form|class-registration-confirmation|group-users-2)$/.test(slug) },
 ];
 
 function categorizePage(url) {

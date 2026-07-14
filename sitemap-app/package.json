@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "build:data": "node scripts/build-data.cjs",
+    "crawl:links": "node scripts/crawl-links.cjs",
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",

@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import { PAGE_CATEGORIES } from '../data/categories';
+import ItemLinks from './ItemLinks';
 
 export default function PageExplorer({ pages, deletedState }) {
   const [query, setQuery] = useState('');
@@ -79,6 +80,7 @@ function PageRow({ page, isDeleted, onToggle }) {
         </div>
         <a href={page.url} target="_blank" rel="noreferrer" className="item-url">{page.url}</a>
         {page.suggestedReason && <span className="item-reason">{page.suggestedReason}</span>}
+        <ItemLinks itemId={page.id} />
       </div>
     </li>
   );

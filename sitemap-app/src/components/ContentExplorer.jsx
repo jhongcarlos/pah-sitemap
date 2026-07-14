@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react';
+import ItemLinks from './ItemLinks';
 
 const PAGE_SIZE = 100;
 
@@ -74,6 +75,7 @@ export default function ContentExplorer({ items, type, deletedState }) {
                 {item.spanish && <span className="es-tag">ES</span>}
               </div>
               <a href={item.url} target="_blank" rel="noreferrer" className="item-url">{item.url}</a>
+              <ItemLinks itemId={item.id} />
             </div>
           </li>
         ))}
